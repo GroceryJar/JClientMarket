@@ -3,6 +3,8 @@ package com.jclientmarket;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class JClientMarket extends Activity {
     private Boolean running_;
@@ -17,10 +19,17 @@ public class JClientMarket extends Activity {
     }
 
     public void running() {
-        startService(new Intent(JClientMarket.this, Connexion.class));
-        while (running_) {
+        Button serviceBtn = (Button) findViewById(R.id.connect);
 
-        }
+        serviceBtn.setOnClickListener( new View.OnClickListener()
+        {
+
+            @Override
+            public void onClick(View actuelView)
+            {
+                startService(new Intent(JClientMarket.this, Connexion.class));
+            }
+        });
     }
 }
 

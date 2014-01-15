@@ -8,8 +8,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-import java.net.InetSocketAddress;
-import java.net.SocketAddress;
 
 /**
  * com.jclientmarket in JClientMarket
@@ -25,9 +23,7 @@ public class Connexion extends Service {
     @Override
     public void onCreate() {
         try {
-            SocketAddress sockaddr = new InetSocketAddress("10.0.2.2", 4242);
-            socket_ = new Socket();
-            socket_.connect(sockaddr, 0);
+            socket_ = new Socket("10.0.2.2", 4242);
             try {
                 out_ = new PrintWriter(socket_.getOutputStream());
                 in_ = new BufferedReader(new InputStreamReader(socket_.getInputStream()));
