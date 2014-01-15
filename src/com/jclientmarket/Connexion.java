@@ -1,12 +1,15 @@
 package com.jclientmarket;
 
-import android.app.IntentService;
+import android.app.Service;
 import android.content.Intent;
+import android.os.IBinder;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.net.InetSocketAddress;
+import java.net.SocketAddress;
 
 /**
  * com.jclientmarket in JClientMarket
@@ -14,26 +17,17 @@ import java.net.Socket;
  * Started on 15/01/2014 at 19:06
  */
 
-public class Connexion extends IntentService {
+public class Connexion extends Service {
     private Socket socket_;
     PrintWriter out_;
     BufferedReader in_;
 
-    /**
-     * Creates an IntentService.  Invoked by your subclass's constructor.
-     *
-     * @param name Used to name the worker thread, important only for debugging.
-     */
-    public Connexion(String name) {
-        super(name);
-    }
-
     @Override
-    protected void onHandleIntent(Intent workIntent) {
-        // Gets data from the incoming Intent
-        String dataString = workIntent.getDataString();
+    public void onCreate() {
         try {
-            socket_ = new Socket("10.0.2.2", 4242);
+            SocketAddress sockaddr = new InetSocketAddress("10.0.2.2", 4242);
+            socket_ = new Socket();
+            socket_.connect(sockaddr, 0);
             try {
                 out_ = new PrintWriter(socket_.getOutputStream());
                 in_ = new BufferedReader(new InputStreamReader(socket_.getInputStream()));
@@ -43,6 +37,22 @@ public class Connexion extends IntentService {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+
+        return super.onStartCommand(intent, flags, startId);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+    }
+
+    @Override
+    public IBinder onBind(Intent intent) {
+        return null;
     }
 
 }

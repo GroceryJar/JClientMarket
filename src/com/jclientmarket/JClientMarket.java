@@ -13,12 +13,11 @@ public class JClientMarket extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
         this.running_ = true;
-        this.connexion_ = new Intent(this, Connexion.class);
-        this.startService(connexion_);
         running();
     }
 
     public void running() {
+        startService(new Intent(JClientMarket.this, Connexion.class));
         while (running_) {
 
         }
