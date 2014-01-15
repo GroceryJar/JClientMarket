@@ -15,13 +15,25 @@ import java.net.Socket;
  * Started on 15/01/2014 at 19:06
  */
 
-public class Connexion extends Service {
+public class Connexion extends Service implements Runnable {
     private Socket socket_;
+    Thread t_;
     PrintWriter out_;
     BufferedReader in_;
 
     @Override
     public void onCreate() {
+        t_ = new Thread(this);
+        t_.start();
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+
+        return super.onStartCommand(intent, flags, startId);
+    }
+
+    public void run() {
         try {
             socket_ = new Socket("10.0.2.2", 4242);
             try {
@@ -36,12 +48,6 @@ public class Connexion extends Service {
     }
 
     @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
-
-        return super.onStartCommand(intent, flags, startId);
-    }
-
-    @Override
     public void onDestroy() {
         super.onDestroy();
     }
@@ -49,6 +55,11 @@ public class Connexion extends Service {
     @Override
     public IBinder onBind(Intent intent) {
         return null;
+    }
+
+    public void send(String message) {
+        out_.write("message"+"\n");
+        out_.flush();
     }
 
 }

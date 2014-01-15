@@ -20,7 +20,6 @@ public class JClientMarket extends Activity {
 
     public void running() {
         Button serviceBtn = (Button) findViewById(R.id.connect);
-
         serviceBtn.setOnClickListener( new View.OnClickListener()
         {
 

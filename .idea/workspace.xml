@@ -90,11 +90,11 @@
       <file leaf-file-name="JClientMarket.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+            <state line="21" column="64" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="615">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#620#845#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#619#844#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,7 +103,7 @@
       <file leaf-file-name="Connexion.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/Connexion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="231" selection-end="231" vertical-scroll-proportion="-0.24768518" vertical-offset="242" max-vertical-offset="900">
+            <state line="60" column="30" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.6527778" vertical-offset="618" max-vertical-offset="1065">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -331,7 +331,7 @@
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD1" />
   </component>
   <component name="RunManager" selected="Android Application.JClientMarket">
@@ -475,7 +475,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1226" height="778" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -498,7 +498,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39941692" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.5701014" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.5701014" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -567,8 +567,8 @@
         <state line="51" column="102" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="960">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#620#845#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#619#844#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -598,8 +598,8 @@
         <state line="5" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#620#845#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#619#844#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -651,18 +651,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+        <state line="21" column="64" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="615">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#620#845#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#619#844#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/Connexion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="231" selection-end="231" vertical-scroll-proportion="-0.24768518" vertical-offset="242" max-vertical-offset="900">
+        <state line="60" column="30" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.6527778" vertical-offset="618" max-vertical-offset="1065">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
