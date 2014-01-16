@@ -17,6 +17,7 @@ public class SocketTCP implements Runnable {
     private PrintWriter out_;
     private BufferedReader in_;
     private Boolean connected_;
+    private String message_;
 
     public SocketTCP() {
         this.connected_ = false;
@@ -25,6 +26,7 @@ public class SocketTCP implements Runnable {
     }
 
     public void run() {
+        String message = "";
         if (!connected_) {
             try {
                 this.socket_ = new Socket("10.0.2.2", 4242);
@@ -39,6 +41,19 @@ public class SocketTCP implements Runnable {
                 e.printStackTrace();
             }
         }
+        try {
+            char charCur[] = new char[1];
+            while (in_.read(charCur, 0, 1) != -1) {
+                if (charCur[0] != '\u0000' && charCur[0] != '\n' && charCur[0] != '\r')
+                    message += charCur[0];
+                else if (!message.equalsIgnoreCase("")) {
+                    this.message_ = message;
+                    message = "";
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void send(String message) {
@@ -47,20 +62,6 @@ public class SocketTCP implements Runnable {
     }
 
     public String receive() {
-        String message = "";
-        try {
-            char charCur[] = new char[1];
-            while (in_.read(charCur, 0, 1) != -1) {
-                if (charCur[0] != '\u0000' && charCur[0] != '\n' && charCur[0] != '\r')
-                    message += charCur[0];
-                else if (!message.equalsIgnoreCase("")) {
-                    return message;
-                }
-
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
+        return message_;
     }
 }
