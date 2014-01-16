@@ -17,21 +17,27 @@
             android:inputType="textPersonName"
             android:text="Login"
             android:ems="10"
-            android:id="@+id/login" android:layout_gravity="center_horizontal"/>
+            android:id="@+id/login" android:layout_gravity="center_horizontal">
+    <requestFocus />
+    </EditText>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/password" android:layout_gravity="center_horizontal" android:text="password"/>
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Connexion"
-            android:id="@+id/connect" android:singleLine="false" android:layout_gravity="center_horizontal"/>
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="S'enregistrer"
-            android:id="@+id/register" android:layout_gravity="center_horizontal" android:clickable="true"/>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="82dp" android:gravity="center|top">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connexion"
+                android:id="@+id/connect" android:singleLine="false"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inscription"
+                android:id="@+id/register" android:clickable="true"/>
+    </LinearLayout>
 </LinearLayout>
