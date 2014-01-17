@@ -17,10 +17,7 @@ public class JClientMarket extends Activity {
         super.onCreate(savedInstanceState);
         SocketTCP.getInstance();
         setContentView(R.layout.login);
-        running();
-    }
 
-    public void running() {
         Button connectBtn = (Button)findViewById(R.id.connect);
         connectBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,10 +27,6 @@ public class JClientMarket extends Activity {
                 tonEdit = (EditText)findViewById(R.id.password);
                 String pass = tonEdit.getText().toString();
                 login(login, pass);
-                Intent intent = new Intent(JClientMarket.this, ProductsPresenter.class);
-                startActivity(intent);
-                //finish();
-
 
             }
         });
@@ -57,8 +50,14 @@ public class JClientMarket extends Activity {
         ret = SocketTCP.getInstance().receive();
         if (ret.equalsIgnoreCase("loginOk")) {
             message = "Bonjour " + login + ".";
+            Intent intent = new Intent(JClientMarket.this, ProductsPresenter.class);
+            startActivity(intent);
+            finish();
         } else if (ret.equalsIgnoreCase("loginLogged")) {
             message = "Vous êtes déjà connecté.";
+            Intent intent = new Intent(JClientMarket.this, ProductsPresenter.class);
+            startActivity(intent);
+            finish();
         } else if (ret.equalsIgnoreCase("loginError"))
             message = "Utilisateur inconnu ou mot de passe erroné.";
         else

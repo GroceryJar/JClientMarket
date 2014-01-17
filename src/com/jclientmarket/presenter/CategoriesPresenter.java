@@ -2,7 +2,11 @@ package com.jclientmarket.presenter;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import com.jclientmarket.R;
+import com.jclientmarket.SocketTCP;
 
 /**
  * com.jclientmarket.presenter in JClientMarket

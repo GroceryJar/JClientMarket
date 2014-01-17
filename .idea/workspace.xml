@@ -90,7 +90,7 @@
       <file leaf-file-name="JClientMarket.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1380">
+            <state line="59" column="22" selection-start="2178" selection-end="2307" vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="1365">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +101,7 @@
       <file leaf-file-name="CategoriesPresenter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/CategoriesPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="20" column="38" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="79" selection-start="621" selection-end="621" vertical-scroll-proportion="0.22982885" vertical-offset="71" max-vertical-offset="480">
+            <state line="11" column="79" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding>
                 <element signature="e#291#309#0" expanded="true" />
                 <element signature="e#428#446#0" expanded="true" />
@@ -136,12 +136,26 @@
       <file leaf-file-name="ProductsPresenter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/ProductsPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="63" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="570">
+            <state line="33" column="80" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="795">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#479#494#0" expanded="true" />
+                <element signature="e#606#621#0" expanded="true" />
+                <element signature="e#875#1210#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/home.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="95" selection-start="499" selection-end="499" vertical-scroll-proportion="0.4712042" vertical-offset="0" max-vertical-offset="382">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -173,15 +187,16 @@
         <option value="$PROJECT_DIR$/src/com/jclientmarket/Connexion.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/ProductsModel.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/model/ProductsModel.java" />
-        <option value="$PROJECT_DIR$/res/layout/home.xml" />
         <option value="$PROJECT_DIR$/res/layout/login.xml" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/SocketTCP.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/ProductsPresenter.java" />
-        <option value="$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/presenter/CartPresenter.java" />
-        <option value="$PROJECT_DIR$/src/com/jclientmarket/presenter/CategoriesPresenter.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java" />
+        <option value="$PROJECT_DIR$/src/com/jclientmarket/presenter/CategoriesPresenter.java" />
+        <option value="$PROJECT_DIR$/src/com/jclientmarket/presenter/ProductsPresenter.java" />
+        <option value="$PROJECT_DIR$/res/layout/home.xml" />
       </list>
     </option>
   </component>
@@ -282,37 +297,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jclientmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JClientMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JClientMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jclientmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,7 +319,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,14 +524,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.6241554" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.6241554" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5701014" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.250423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.5701014" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -743,16 +732,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="108" selection-start="497" selection-end="497" vertical-scroll-proportion="0.47368422" vertical-offset="0" max-vertical-offset="380">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/SocketTCP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="35" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
@@ -760,37 +739,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1380">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/CartPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="312" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/ProductsPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="63" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="570">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#479#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/CategoriesPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -806,7 +757,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="79" selection-start="621" selection-end="621" vertical-scroll-proportion="0.22982885" vertical-offset="71" max-vertical-offset="480">
+        <state line="11" column="79" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding>
             <element signature="e#291#309#0" expanded="true" />
             <element signature="e#428#446#0" expanded="true" />
@@ -815,6 +766,46 @@
             <element signature="e#1057#1080#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/CategoriesPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="38" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="22" selection-start="2178" selection-end="2307" vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="1365">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/ProductsPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="80" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="795">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#606#621#0" expanded="true" />
+            <element signature="e#875#1210#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/home.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="95" selection-start="499" selection-end="499" vertical-scroll-proportion="0.4712042" vertical-offset="0" max-vertical-offset="382">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
