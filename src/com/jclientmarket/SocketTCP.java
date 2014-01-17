@@ -62,6 +62,9 @@ public class SocketTCP implements Runnable {
     }
 
     public String receive() {
-        return message_;
+        while (message_ == "") {}
+        String message = message_;
+        message_ = "";
+        return message;
     }
 }
