@@ -1,14 +1,8 @@
 package com.jclientmarket;
 
 import android.app.Activity;
-import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
-import android.content.ServiceConnection;
-import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
-import android.os.IBinder;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +10,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class JClientMarket extends Activity {
-    private ProductsPresenter products_;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -36,6 +29,9 @@ public class JClientMarket extends Activity {
                 tonEdit = (EditText)findViewById(R.id.password);
                 String pass = tonEdit.getText().toString();
                 login(login, pass);
+                Intent intent = new Intent(JClientMarket.this, ProductsPresenter.class);
+                startActivity(intent);
+                //finish();
 
 
             }
@@ -55,14 +51,12 @@ public class JClientMarket extends Activity {
 
     public void login(String login, String pass) {
         String message;
-        String ret = null;
+        String ret;
         SocketTCP.getInstance().send("login;" + login + ";" + pass);
         ret = SocketTCP.getInstance().receive();
         if (ret.equalsIgnoreCase("loginOk")) {
-            setContentView(R.layout.home);
             message = "Bonjour " + login + ".";
         } else if (ret.equalsIgnoreCase("loginLogged")) {
-            setContentView(R.layout.home);
             message = "Vous êtes déjà connecté.";
         } else if (ret.equalsIgnoreCase("loginError"))
             message = "Utilisateur inconnu ou mot de passe erroné.";

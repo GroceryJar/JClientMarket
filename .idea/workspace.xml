@@ -87,11 +87,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JClientMarket.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JClientMarket.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.33333334" vertical-offset="471" max-vertical-offset="1260">
-              <folding />
+            <state line="38" column="0" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="1365">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +101,28 @@
       <file leaf-file-name="SocketTCP.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/SocketTCP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="23" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+            <state line="76" column="35" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="97" selection-start="885" selection-end="885" vertical-scroll-proportion="0.6601467" vertical-offset="0" max-vertical-offset="409">
+              <folding>
+                <element signature="e#428#446#0" expanded="true" />
+                <element signature="e#769#796#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="35" selection-start="137" selection-end="137" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -108,10 +131,10 @@
       <file leaf-file-name="ProductsPresenter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/ProductsPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="10" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="585">
+            <state line="14" column="48" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="540">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#462#477#0" expanded="true" />
+                <element signature="e#405#420#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,16 +178,16 @@
         <option value="$PROJECT_DIR$/src/com/jclientmarket/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/Login.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/ConnexionTask.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/Connexion.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/ProductsModel.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/model/ProductsModel.java" />
         <option value="$PROJECT_DIR$/res/layout/home.xml" />
         <option value="$PROJECT_DIR$/res/layout/login.xml" />
+        <option value="$PROJECT_DIR$/src/com/jclientmarket/SocketTCP.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/ProductsPresenter.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java" />
-        <option value="$PROJECT_DIR$/src/com/jclientmarket/SocketTCP.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -265,51 +288,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jclientmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JClientMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JClientMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JClientMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JClientMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -589,7 +572,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="122" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="855">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -603,7 +588,10 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="76" selection-start="561" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="345">
-          <folding />
+          <folding>
+            <element signature="e#428#446#0" expanded="true" />
+            <element signature="e#769#796#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -620,14 +608,19 @@
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="51" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="990">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="76" selection-start="561" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="360">
-          <folding />
+          <folding>
+            <element signature="e#428#446#0" expanded="true" />
+            <element signature="e#769#796#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,14 +637,19 @@
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="102" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="960">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="101" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="345">
-          <folding />
+          <folding>
+            <element signature="e#428#446#0" expanded="true" />
+            <element signature="e#769#796#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -668,27 +666,15 @@
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="102" selection-start="115" selection-end="115" vertical-scroll-proportion="0.14742015" vertical-offset="0" max-vertical-offset="407">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="76" selection-start="561" selection-end="621" vertical-scroll-proportion="0.38194445" vertical-offset="0" max-vertical-offset="432">
           <folding />
         </state>
       </provider>
@@ -720,27 +706,46 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/ProductsPresenter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/SocketTCP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="10" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="585">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#477#0" expanded="true" />
-          </folding>
+        <state line="76" column="35" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/SocketTCP.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/ProductsPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="23" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
-          <folding />
+        <state line="14" column="48" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="540">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#420#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.33333334" vertical-offset="471" max-vertical-offset="1260">
+        <state line="38" column="0" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="1365">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="35" selection-start="137" selection-end="137" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="165">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="97" selection-start="885" selection-end="885" vertical-scroll-proportion="0.6601467" vertical-offset="0" max-vertical-offset="409">
+          <folding>
+            <element signature="e#428#446#0" expanded="true" />
+            <element signature="e#769#796#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
