@@ -11,7 +11,8 @@ import java.net.Socket;
  * Started on 16/01/2014 at 15:06
  */
 
-public class SocketTCP implements Runnable {
+public final class SocketTCP implements Runnable {
+    private static volatile SocketTCP instance = null;
     private Thread t_;
     private Socket socket_;
     private PrintWriter out_;
@@ -19,10 +20,23 @@ public class SocketTCP implements Runnable {
     private Boolean connected_;
     private String message_;
 
-    public SocketTCP() {
+    private SocketTCP() {
+        super();
         this.connected_ = false;
+        this.message_ = null;
         this.t_ = new Thread(this);
         this.t_.start();
+    }
+
+    public final static SocketTCP getInstance(){
+        if (SocketTCP.instance == null) {
+            synchronized(SocketTCP.class) {
+                if (SocketTCP.instance == null) {
+                    SocketTCP.instance = new SocketTCP();
+                }
+            }
+        }
+        return SocketTCP.instance;
     }
 
     public void run() {
@@ -62,9 +76,9 @@ public class SocketTCP implements Runnable {
     }
 
     public String receive() {
-        while (message_ == "") {}
+        while (message_ == null) {}
         String message = message_;
-        message_ = "";
+        message_ = null;
         return message;
     }
 }

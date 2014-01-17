@@ -16,14 +16,13 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class JClientMarket extends Activity {
-    public SocketTCP connexion_;
     private ProductsPresenter products_;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SocketTCP.getInstance();
         setContentView(R.layout.login);
-        this.connexion_ = new SocketTCP();
         running();
     }
 
@@ -52,20 +51,13 @@ public class JClientMarket extends Activity {
                 register(login, pass);
             }
         });
-        Button testBtn = (Button)findViewById(R.id.test);
-        testBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View actuelView) {
-                products();
-            }
-        });
     }
 
     public void login(String login, String pass) {
         String message;
         String ret = null;
-        this.connexion_.send("login;" + login + ";" + pass);
-        ret = this.connexion_.receive();
+        SocketTCP.getInstance().send("login;" + login + ";" + pass);
+        ret = SocketTCP.getInstance().receive();
         if (ret.equalsIgnoreCase("loginOk")) {
             setContentView(R.layout.home);
             message = "Bonjour " + login + ".";
@@ -85,8 +77,8 @@ public class JClientMarket extends Activity {
         String message;
         String ret;
         if (!login.equalsIgnoreCase("Login")) {
-            this.connexion_.send("register;" + login + ";" + pass);
-            ret = this.connexion_.receive();
+            SocketTCP.getInstance().send("register;" + login + ";" + pass);
+            ret = SocketTCP.getInstance().receive();
             if (ret.equalsIgnoreCase("registerOk"))
                 message = "Nouvel utilisateur enregistré.\n Vous pouvez maintenant vous connecter.";
             else if (ret.equalsIgnoreCase("registerError"))
@@ -99,12 +91,6 @@ public class JClientMarket extends Activity {
         Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG);
         toast.setGravity(Gravity.TOP, 0, 75);
         toast.show();
-    }
-
-    public void products() {
-        this.connexion_.send("getproducts");
-        String ret = this.connexion_.receive();
-        this.products_ = new ProductsPresenter(ret);
     }
 }
 
