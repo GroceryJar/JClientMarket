@@ -1,7 +1,9 @@
-package com.jclientmarket;
+package com.jclientmarket.presenter;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.jclientmarket.R;
+import com.jclientmarket.SocketTCP;
 import com.jclientmarket.model.ProductsModel;
 
 import java.util.ArrayList;

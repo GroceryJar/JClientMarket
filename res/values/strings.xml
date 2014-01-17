@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">JClientMarket</string>
     <string name="products_activity">Produits</string>
+    <string name="categories_activity">Categories</string>
+    <string name="cart_activity">Mon panier</string>
 </resources>

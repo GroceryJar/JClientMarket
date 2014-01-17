@@ -13,8 +13,14 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".ProductsPresenter"
+                android:name=".presenter.ProductsPresenter"
                 android:label="@string/products_activity" />
+        <activity
+                android:name=".presenter.CategoriesPresenter"
+                android:label="@string/categories_activity" />
+        <activity
+                android:name=".presenter.CartPresenter"
+                android:label="@string/cart_activity" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
