@@ -16,7 +16,7 @@ public class JClientMarket extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         SocketTCP.getInstance();
-        setContentView(R.layout.login);
+        setContentView(R.layout.login_layout);
 
         Button connectBtn = (Button)findViewById(R.id.connect);
         connectBtn.setOnClickListener(new View.OnClickListener() {
@@ -41,6 +41,22 @@ public class JClientMarket extends Activity {
                 register(login, pass);
             }
         });
+        EditText loginTxt = (EditText)findViewById(R.id.login);
+        loginTxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View actuelView) {
+                EditText tonEdit = (EditText)findViewById(R.id.login);
+                tonEdit.setText("");
+            }
+        });
+        EditText passwordTxt = (EditText)findViewById(R.id.password);
+        passwordTxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View actuelView) {
+                EditText tonEdit = (EditText)findViewById(R.id.password);
+                tonEdit.setText("");
+            }
+        });
     }
 
     public void login(String login, String pass) {
@@ -61,7 +77,7 @@ public class JClientMarket extends Activity {
         } else if (ret.equalsIgnoreCase("loginError"))
             message = "Utilisateur inconnu ou mot de passe erroné.";
         else
-            message = "Erreur.";
+            message = "Erreur";
         Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG);
         toast.setGravity(Gravity.TOP, 0, 75);
         toast.show();
@@ -74,7 +90,7 @@ public class JClientMarket extends Activity {
             SocketTCP.getInstance().send("register;" + login + ";" + pass);
             ret = SocketTCP.getInstance().receive();
             if (ret.equalsIgnoreCase("registerOk"))
-                message = "Nouvel utilisateur enregistré.\n Vous pouvez maintenant vous connecter.";
+                message = "Nouvel utilisateur enregistré.\nVous pouvez maintenant vous connecter.";
             else if (ret.equalsIgnoreCase("registerError"))
                 message = "Un utilisateur utilise déjà ce pseudo.";
             else

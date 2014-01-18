@@ -23,4 +23,27 @@ public class ProductsModel {
         this.quantities_ = quantities_;
     }
 
+    public int getId_() {
+        return id_;
+    }
+
+    public String getDesignation_() {
+        return designation_;
+    }
+
+    public String getDescription_() {
+        return description_;
+    }
+
+    public int getCategory_() {
+        return category_;
+    }
+
+    public float getPrice_() {
+        return price_;
+    }
+
+    public int getQuantities_() {
+        return quantities_;
+    }
 }
