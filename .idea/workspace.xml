@@ -87,29 +87,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductsPresenter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/ProductsPresenter.java">
+      <file leaf-file-name="ant.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ant.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="69" selection-start="4419" selection-end="4419" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1575">
-              <folding>
-                <element signature="e#3922#3952#0" expanded="true" />
-                <element signature="e#4318#4347#0" expanded="true" />
-                <element signature="e#4498#4524#0" expanded="true" />
-                <element signature="e#4571#4594#0" expanded="true" />
-                <element signature="e#5354#5385#0" expanded="true" />
-                <element signature="e#5498#5532#0" expanded="true" />
-                <element signature="e#5601#5626#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="320" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="1470">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="99" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device-2014-01-18-182802.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Sites/Floran/images/work/device-2014-01-18-182802.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device-2014-01-18-182943.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Sites/Floran/images/work/device-2014-01-18-182943.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device-2014-01-18-183032.png" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Sites/Floran/images/work/device-2014-01-18-183032.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -125,25 +156,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartPresenter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/CartPresenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="101" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
-              <folding>
-                <element signature="e#2333#2356#0" expanded="true" />
-                <element signature="e#2390#2413#0" expanded="true" />
-                <element signature="e#2481#2506#0" expanded="true" />
-                <element signature="e#4563#4586#0" expanded="true" />
-                <element signature="e#5031#5061#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocketTCP.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SocketTCP.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/SocketTCP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="88" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.4400978" vertical-offset="330" max-vertical-offset="1305">
+            <state line="37" column="88" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -155,24 +171,6 @@
             <state line="27" column="28" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="600">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/login_layout.xml">
-          <provider editor-type-id="text-editor">
-            <state line="21" column="46" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="795">
-              <folding>
-                <element signature="e#785#804#0" expanded="true" />
-                <element signature="e#1202#1222#0" expanded="true" />
-                <element signature="e#1525#1547#0" expanded="true" />
-                <element signature="e#1863#1882#0" expanded="true" />
-                <element signature="e#2097#2115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -203,8 +201,6 @@
         <option value="$PROJECT_DIR$/res/values/style.xml" />
         <option value="$PROJECT_DIR$/res/layout/cart_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout/product_layout.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/project.properties" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/presenter/ProductsPresenter.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java" />
@@ -212,6 +208,8 @@
         <option value="$PROJECT_DIR$/res/values-en/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/presenter/CartPresenter.java" />
         <option value="$PROJECT_DIR$/src/com/jclientmarket/SocketTCP.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/project.properties" />
       </list>
     </option>
   </component>
@@ -439,6 +437,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Sites/Floran/images/work" />
   </component>
   <component name="RunManager" selected="Android Application.JClientMarket">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -606,7 +605,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1226" height="778" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -615,19 +614,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.42989865" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3265306" sideWeight="0.4079392" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5920608" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3265306" sideWeight="0.5920608" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.5701014" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5701014" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -713,13 +712,7 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="18" selection-start="443" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="480">
-          <folding>
-            <element signature="e#321#339#0" expanded="true" />
-            <element signature="e#487#505#0" expanded="true" />
-            <element signature="e#838#865#0" expanded="true" />
-            <element signature="e#979#1008#0" expanded="true" />
-            <element signature="e#1116#1139#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -754,8 +747,8 @@
       <provider editor-type-id="text-editor">
         <state line="20" column="51" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="630">
           <folding>
-            <element signature="e#627#654#0" expanded="true" />
-            <element signature="e#1018#1041#0" expanded="true" />
+            <element signature="e#627#654#0" expanded="false" />
+            <element signature="e#1018#1041#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -836,8 +829,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="0" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="495">
           <folding>
-            <element signature="e#627#654#0" expanded="true" />
-            <element signature="e#1018#1041#0" expanded="true" />
+            <element signature="e#627#654#0" expanded="false" />
+            <element signature="e#1018#1041#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,13 +879,7 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="76" selection-start="561" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="345">
-          <folding>
-            <element signature="e#321#339#0" expanded="true" />
-            <element signature="e#487#505#0" expanded="true" />
-            <element signature="e#838#865#0" expanded="true" />
-            <element signature="e#979#1008#0" expanded="true" />
-            <element signature="e#1116#1139#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -920,13 +907,7 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="76" selection-start="561" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="360">
-          <folding>
-            <element signature="e#321#339#0" expanded="true" />
-            <element signature="e#487#505#0" expanded="true" />
-            <element signature="e#838#865#0" expanded="true" />
-            <element signature="e#979#1008#0" expanded="true" />
-            <element signature="e#1116#1139#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -954,13 +935,7 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="101" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="345">
-          <folding>
-            <element signature="e#321#339#0" expanded="true" />
-            <element signature="e#487#505#0" expanded="true" />
-            <element signature="e#838#865#0" expanded="true" />
-            <element signature="e#979#1008#0" expanded="true" />
-            <element signature="e#1116#1139#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -981,13 +956,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
@@ -1025,26 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="23" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0729927" vertical-offset="0" max-vertical-offset="411">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding>
-            <element signature="e#321#339#0" expanded="true" />
-            <element signature="e#487#505#0" expanded="true" />
-            <element signature="e#838#865#0" expanded="true" />
-            <element signature="e#979#1008#0" expanded="true" />
-            <element signature="e#1116#1139#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,20 +1034,13 @@
       <provider editor-type-id="text-editor">
         <state line="28" column="41" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="675">
           <folding>
-            <element signature="e#627#654#0" expanded="true" />
-            <element signature="e#1018#1041#0" expanded="true" />
+            <element signature="e#627#654#0" expanded="false" />
+            <element signature="e#1018#1041#0" expanded="false" />
           </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="320" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
@@ -1165,9 +1106,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/SocketTCP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="88" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.4400978" vertical-offset="330" max-vertical-offset="1305">
+        <state line="37" column="88" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1305">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="69" selection-start="286" selection-end="286" vertical-scroll-proportion="0.18939394" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="320" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="409">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="409">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="99" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Sites/Floran/images/work/device-2014-01-18-182802.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Sites/Floran/images/work/device-2014-01-18-182943.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Sites/Floran/images/work/device-2014-01-18-183032.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
