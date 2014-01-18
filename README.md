@@ -6,4 +6,4 @@ Page de connexion, affichage des produits du JServMarket, affichage du panier et
 Ajout/deletion de produits dans le panier et paiment.
 Multi-langue (fr et en)
 
-![Alt text](/sreen/epimarket.jpg "Sreenschot")
+![Alt text](/sreens/epimarket.jpg "Sreenschot")
