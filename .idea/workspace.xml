@@ -90,7 +90,7 @@
       <file leaf-file-name="JClientMarket.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="94" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1515">
+            <state line="25" column="94" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1515">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +101,7 @@
       <file leaf-file-name="ProductsPresenter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/ProductsPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="27" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1755">
+            <state line="37" column="27" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="856" max-vertical-offset="1755">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1011#1164#0" expanded="true" />
@@ -116,14 +116,17 @@
       <file leaf-file-name="CartPresenter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/CartPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="56" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.4988067" vertical-offset="706" max-vertical-offset="1695">
+            <state line="97" column="138" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.39379475" vertical-offset="1200" max-vertical-offset="1845">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#693#704#0" expanded="true" />
-                <element signature="e#998#1277#0" expanded="true" />
-                <element signature="e#1266#1267#0" expanded="true" />
-                <element signature="e#2658#2683#0" expanded="true" />
-                <element signature="e#4132#4162#0" expanded="true" />
+                <element signature="e#969#1248#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1356#1505#0" expanded="true" />
+                <element signature="e#1494#1495#0" expanded="true" />
+                <element signature="e#2407#2625#0" expanded="true" />
+                <element signature="e#2606#2607#0" expanded="true" />
+                <element signature="e#2912#2937#0" expanded="true" />
+                <element signature="e#4549#4579#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -580,14 +583,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.6241554" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.6241554" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.5701014" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5701014" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -853,15 +856,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="94" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1515">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/product_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="0" selection-end="1243" vertical-scroll-proportion="-4.4444447" vertical-offset="0" max-vertical-offset="495">
@@ -882,9 +876,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/JClientMarket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="94" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1515">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/ProductsPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="27" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1755">
+        <state line="37" column="27" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="1111" max-vertical-offset="1755">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1011#1164#0" expanded="true" />
@@ -897,14 +900,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jclientmarket/presenter/CartPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="56" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.4988067" vertical-offset="706" max-vertical-offset="1695">
+        <state line="97" column="138" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.39379475" vertical-offset="1200" max-vertical-offset="1845">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#693#704#0" expanded="true" />
-            <element signature="e#998#1277#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#2658#2683#0" expanded="true" />
-            <element signature="e#4132#4162#0" expanded="true" />
+            <element signature="e#969#1248#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1356#1505#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#2407#2625#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+            <element signature="e#2912#2937#0" expanded="true" />
+            <element signature="e#4549#4579#0" expanded="true" />
           </folding>
         </state>
       </provider>
