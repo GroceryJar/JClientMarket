@@ -63,14 +63,17 @@ public class CartPresenter extends Activity {
             public void onClick(View actuelView) {
                 SocketTCP.getInstance().send("pay");
                 AlertDialog.Builder adb = new AlertDialog.Builder(CartPresenter.this, AlertDialog.THEME_HOLO_LIGHT);
-                adb.setTitle("Merci de votre achat.");
-                adb.setPositiveButton("Fermer", new DialogInterface.OnClickListener() {
+                adb.setTitle(getString(R.string.thx));
+                adb.setMessage(getString(R.string.sum) + " " + totalCart() + " €");
+                adb.setPositiveButton(getString(R.string.close), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         cart();
                     }
                 });
                 adb.show();
+                Button payBtn = (Button)findViewById(R.id.pay);
+                payBtn.setVisibility(View.INVISIBLE);
             }
         });
 
@@ -78,11 +81,7 @@ public class CartPresenter extends Activity {
     }
 
     public void cart() {
-        final ListView maListViewPerso = (ListView)findViewById(R.id.productsList);
-
         cart_ = new ArrayList<CartModel>();
-        ArrayList<HashMap<String, String>> listItem = new ArrayList<HashMap<String, String>>();
-        HashMap<String, String> map;
         SocketTCP.getInstance().send("getcartcontent");
         String ret = SocketTCP.getInstance().receive();
         if (!ret.equalsIgnoreCase("cartEmpty")) {
@@ -91,37 +90,54 @@ public class CartPresenter extends Activity {
                 String token2[] = token[i].split("[;]");
                 this.cart_.add(new CartModel(Integer.parseInt(token2[0]), Integer.parseInt(token2[1]), Integer.parseInt(token2[2]), token2[3], Float.parseFloat(token2[4])));
             }
-
-            for (int i = 0 ; i != this.cart_.size() ; i++) {
-                map = new HashMap<String, String>();
-                map.put("id", String.valueOf(this.cart_.get(i).getId_()));
-                map.put("designation", this.cart_.get(i).getDesignation_());
-                map.put("quantity", "Quantité: " + String.valueOf(this.cart_.get(i).getQuantity_()));
-                map.put("price", String.valueOf(this.cart_.get(i).getPrice_() * this.cart_.get(i).getQuantity_()) + " €");
-                map.put("img", String.valueOf(R.drawable.ic_launcher));
-                listItem.add(map);
-            }
         }
-            SimpleAdapter mSchedule = new SimpleAdapter(this.getBaseContext(), listItem, R.layout.affichageitem,
-                    new String[]{"img", "designation", "quantity", "price"}, new int[]{R.id.img, R.id.titre, R.id.description, R.id.price});
-            maListViewPerso.setAdapter(mSchedule);
-            maListViewPerso.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                @SuppressWarnings("unchecked")
-                public void onItemClick(AdapterView<?> a, View v, int position, long id) {
-                    final HashMap<String, String> map = (HashMap<String, String>)maListViewPerso.getItemAtPosition(position);
-                    AlertDialog.Builder adb = new AlertDialog.Builder(CartPresenter.this, AlertDialog.THEME_HOLO_LIGHT);
-                    adb.setTitle("Ajouter à votre panier");
-                    adb.setMessage(map.get("designation") + " (" + map.get("price") + ")");
-                    adb.setNegativeButton("Annuler", null);
-                    adb.setPositiveButton("Ajouter", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                        }
-                    });
-                    adb.show();
-                }
-            });
+        update();
+    }
 
+    public void update() {
+        final ListView maListViewPerso = (ListView)findViewById(R.id.productsList);
+        ArrayList<HashMap<String, String>> listItem = new ArrayList<HashMap<String, String>>();
+        HashMap<String, String> map;
+        Button payBtn = (Button)findViewById(R.id.pay);
+        payBtn.setVisibility(View.INVISIBLE);
+        for (int i = 0 ; i != this.cart_.size() ; i++) {
+            map = new HashMap<String, String>();
+            map.put("id", String.valueOf(this.cart_.get(i).getId_()));
+            map.put("designation", this.cart_.get(i).getDesignation_());
+            map.put("quantity", "Quantité: " + String.valueOf(this.cart_.get(i).getQuantity_()));
+            map.put("price", "Total :" + String.valueOf(this.cart_.get(i).getPrice_() * this.cart_.get(i).getQuantity_()) + " €");
+            map.put("img", String.valueOf(R.drawable.del_panier));
+            listItem.add(map);
+        }
+        if (this.cart_.size() > 0)
+            payBtn.setVisibility(View.VISIBLE);
+        payBtn.setText(getString(R.string.pay)+ " (" + totalCart() + " €)");
+        SimpleAdapter mSchedule = new SimpleAdapter(this.getBaseContext(), listItem, R.layout.affichageitem,
+                new String[]{"img", "designation", "quantity", "price"}, new int[]{R.id.img, R.id.titre, R.id.description, R.id.price});
+        maListViewPerso.setAdapter(mSchedule);
+        maListViewPerso.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            @SuppressWarnings("unchecked")
+            public void onItemClick(AdapterView<?> a, View v, int position, long id) {
+                final HashMap<String, String> map = (HashMap<String, String>)maListViewPerso.getItemAtPosition(position);
+                SocketTCP.getInstance().send("delfromcart;" + map.get("id"));
+                String ret = SocketTCP.getInstance().receive();
+                if (ret.equalsIgnoreCase("delfromcartOk")) {
+                    if (cart_.get(position).getQuantity_() > 1)
+                        cart_.get(position).setQuantity_(cart_.get(position).getQuantity_() - 1);
+                    else
+                        cart_.remove(position);
+                    update();
+                }
+            }
+        });
+    }
+
+    public int totalCart() {
+        int sum = 0;
+        for (int i = 0 ; i != this.cart_.size() ; i++) {
+            sum += this.cart_.get(i).getQuantity_() * this.cart_.get(i).getPrice_();
+        }
+        return sum;
     }
 }

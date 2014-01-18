@@ -41,22 +41,6 @@ public class JClientMarket extends Activity {
                 register(login, pass);
             }
         });
-        EditText loginTxt = (EditText)findViewById(R.id.login);
-        loginTxt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View actuelView) {
-                EditText tonEdit = (EditText)findViewById(R.id.login);
-                tonEdit.setText("");
-            }
-        });
-        EditText passwordTxt = (EditText)findViewById(R.id.password);
-        passwordTxt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View actuelView) {
-                EditText tonEdit = (EditText)findViewById(R.id.password);
-                tonEdit.setText("");
-            }
-        });
     }
 
     public void login(String login, String pass) {
@@ -65,19 +49,19 @@ public class JClientMarket extends Activity {
         SocketTCP.getInstance().send("login;" + login + ";" + pass);
         ret = SocketTCP.getInstance().receive();
         if (ret.equalsIgnoreCase("loginOk")) {
-            message = "Bonjour " + login + ".";
+            message = getString(R.string.hello) + " " + login + ".";
             Intent intent = new Intent(JClientMarket.this, ProductsPresenter.class);
             startActivity(intent);
             finish();
         } else if (ret.equalsIgnoreCase("loginLogged")) {
-            message = "Vous êtes déjà connecté.";
+            message = getString(R.string.logged);
             Intent intent = new Intent(JClientMarket.this, ProductsPresenter.class);
             startActivity(intent);
             finish();
         } else if (ret.equalsIgnoreCase("loginError"))
-            message = "Utilisateur inconnu ou mot de passe erroné.";
+            message = getString(R.string.loginError);
         else
-            message = "Erreur";
+            message = getString(R.string.error);
         Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG);
         toast.setGravity(Gravity.TOP, 0, 75);
         toast.show();
@@ -86,17 +70,17 @@ public class JClientMarket extends Activity {
     public void register(String login, String pass) {
         String message;
         String ret;
-        if (!login.equalsIgnoreCase("Login")) {
+        if (!login.equalsIgnoreCase("") && !pass.isEmpty()) {
             SocketTCP.getInstance().send("register;" + login + ";" + pass);
             ret = SocketTCP.getInstance().receive();
             if (ret.equalsIgnoreCase("registerOk"))
-                message = "Nouvel utilisateur enregistré.\nVous pouvez maintenant vous connecter.";
+                message = getString(R.string.registerOk);
             else if (ret.equalsIgnoreCase("registerError"))
-                message = "Un utilisateur utilise déjà ce pseudo.";
+                message = getString(R.string.registerError);
             else
-                message = "Vous êtes déjà connecté.";
+                message = getString(R.string.logged);
         } else {
-            message = "Veuillez entrer un pseudo valide.";
+            message = getString(R.string.registerFalse);
         }
         Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG);
         toast.setGravity(Gravity.TOP, 0, 75);

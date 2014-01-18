@@ -46,4 +46,8 @@ public class ProductsModel {
     public int getQuantities_() {
         return quantities_;
     }
+
+    public void setQuantities_(int quantities_) {
+        this.quantities_ = quantities_;
+    }
 }

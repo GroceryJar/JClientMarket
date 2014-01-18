@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Little Goat Market</string>
+    <string name="products_activity">Products</string>
+    <string name="categories_activity">Categories</string>
+    <string name="cart_activity">Cart</string>
+    <string name="hintPseudo">Nickname</string>
+    <string name="hintPassword">Password</string>
+
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">"Add"</string>
+    <string name="error">Error</string>
+
+    <string name="connexion">Login</string>
+    <string name="register">Register</string>
+    <string name="pay">Pay</string>
+
+    <string name="hello">Hello </string>
+    <string name="logged">You are already connected.</string>
+    <string name="loginError">Unknown user or wrong password.</string>
+
+    <string name="registerOk">Registered new user.\nYou can now login.</string>
+    <string name="registerError">A user is already using that nickname.</string>
+    <string name="registerFalse">Please enter a valid username.</string>
+
+    <string name="thx">Thank you for your purchase.</string>
+    <string name="sum">Total : </string>
+    <string name="disp">Available(s): </string>
+
+    <string name="addToCart">Add to cart</string>
+    <string name="addToCartOk">The product has been added to your cart.</string>
+    <string name="addToCartError">This product is no longer in stock.</string>
+
+</resources>

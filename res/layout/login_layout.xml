@@ -3,41 +3,46 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent" android:gravity="center_vertical">
-
+              android:layout_height="match_parent" android:gravity="center_vertical" android:paddingBottom="50dp">
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal|top" android:background="@drawable/ic_launcher"
+            />
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Connexion"
+            android:text="@string/connexion"
             android:id="@+id/textView" android:layout_gravity="center_horizontal" android:paddingBottom="50dp"/>
     <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Login"
             android:ems="10"
-            android:id="@+id/login" android:layout_gravity="center_horizontal">
-    <requestFocus />
+            android:id="@+id/login" android:layout_gravity="center_horizontal"
+            android:hint="@string/hintPseudo">
     </EditText>
     <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/password" android:layout_gravity="center_horizontal" android:text="password"/>
+            android:id="@+id/password" android:layout_gravity="center_horizontal"
+            android:hint="@string/hintPassword"/>
     <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="82dp" android:gravity="center|top">
+            android:layout_height="wrap_content" android:gravity="center|top" android:paddingTop="10dp">
         <Button
-                android:layout_width="wrap_content"
+                android:layout_width="130dp"
                 android:layout_height="wrap_content"
-                android:text="Connexion"
+                android:text="@string/connexion"
                 android:id="@+id/connect" android:singleLine="false"/>
         <Button
-                android:layout_width="wrap_content"
+                android:layout_width="130dp"
                 android:layout_height="wrap_content"
-                android:text="Inscription"
+                android:text="@string/register"
                 android:id="@+id/register" android:clickable="true"/>
     </LinearLayout>
 </LinearLayout>

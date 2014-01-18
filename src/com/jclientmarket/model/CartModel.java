@@ -40,4 +40,8 @@ public class CartModel {
     public String getDesignation_() {
         return designation_;
     }
+
+    public void setQuantity_(int quantity_) {
+        this.quantity_ = quantity_;
+    }
 }

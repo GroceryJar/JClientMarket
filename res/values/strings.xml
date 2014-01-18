@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">JClientMarket</string>
+    <string name="app_name">Little Goat Market</string>
     <string name="products_activity">Produits</string>
     <string name="categories_activity">Categories</string>
-    <string name="cart_activity">Mon panier</string>
+    <string name="cart_activity">Panier</string>
+    <string name="hintPseudo">Pseudo</string>
+    <string name="hintPassword">Mot de passe</string>
+
+    <string name="close">Fermer</string>
+    <string name="cancel">Annuler</string>
+    <string name="add">Ajouter</string>
+    <string name="error">Erreur</string>
+
+    <string name="connexion">Connexion</string>
+    <string name="register">Inscription</string>
+    <string name="pay">Payer</string>
+
+    <string name="hello">Bonjour </string>
+    <string name="logged">Vous êtes déjà connecté.</string>
+    <string name="loginError">Utilisateur inconnu ou mot de passe erroné.</string>
+
+    <string name="registerOk">Nouvel utilisateur enregistré.\nVous pouvez maintenant vous connecter.</string>
+    <string name="registerError">Un utilisateur utilise déjà ce pseudo.</string>
+    <string name="registerFalse">Veuillez entrer un pseudo valide.</string>
+
+    <string name="thx">Merci de votre achat.</string>
+    <string name="sum">Total : </string>
+    <string name="disp">Disponible(s): </string>
+
+    <string name="addToCart">Ajouter à votre panier</string>
+    <string name="addToCartOk">Le produit a été ajouté a votre panier.</string>
+    <string name="addToCartError">Ce produit n\'est plus en stock.</string>
+
 </resources>
